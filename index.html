@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="./assets/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h3>Choose Difficulty:</h3>
+        <div class="toggleWrap">
+          <label>Easy</label>
+          <label class="switch">
+            <input type="checkbox" onclick="toggleHardMode()" />
+            <span class="slider round"></span>
+          </label>
+          <label>Hard</label>
+        </div>
+      </div>
+
+      <table>
+        <tr>
+          <td class="cell" id="0"></td>
+          <td class="cell" id="1"></td>
+          <td class="cell" id="2"></td>
+        </tr>
+        <tr>
+          <td class="cell" id="3"></td>
+          <td class="cell" id="4"></td>
+          <td class="cell" id="5"></td>
+        </tr>
+        <tr>
+          <td class="cell" id="6"></td>
+          <td class="cell" id="7"></td>
+          <td class="cell" id="8"></td>
+        </tr>
+      </table>
+      <div class="endgame">
+        <div class="text"></div>
+        <button class="replayBtn" onClick="startGame()">Replay</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
