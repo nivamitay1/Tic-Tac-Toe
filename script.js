@@ -63,6 +63,10 @@ function gameOver(gameWon) {
     document.getElementById(index).style.backgroundColor =
       gameWon.player === huPlayer ? "blue" : "red";
   }
+  document.querySelector(".endgame").style.backgroundColor =
+    gameWon.player === huPlayer
+      ? "rgba(54, 186, 209, 0.9)"
+      : "rgba(209 ,54 ,54 , 0.9)";
 
   for (let i = 0; i < cells.length; i++) {
     cells[i].removeEventListener("click", turnClick, false);
