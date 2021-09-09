@@ -7,6 +7,9 @@ body {
     #def3f8 100%
   );
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
   color: white;
   font-family: cursive;
 }
@@ -32,6 +35,7 @@ table {
   border-collapse: collapse;
   max-width: 300px;
   margin-top: 9%;
+  margin-bottom: 10%;
 }
 
 table tr:first-child td {
