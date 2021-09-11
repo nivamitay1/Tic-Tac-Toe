@@ -4,4 +4,6 @@
 
 View the Live Demo at https://jovial-ride-815fe0.netlify.app/
 
+## About:
+
 <p> I have made this project using only vanilla Javascript CSS and HTML    </p>
